@@ -12,7 +12,7 @@ const ResultBox = ({text}: { text: string }) => {
     
 
   let sentence =text.split(/[.?!]/gi).length-1
-  let paragraph=text.split(/\n\n/g).length-1
+  let paragraph=text.split(/\n\n/g).length
 let count=0
 for (let i in wor){
   console.log(pronouns[i])

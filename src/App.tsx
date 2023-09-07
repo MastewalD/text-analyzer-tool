@@ -17,7 +17,7 @@ const App = () => {
         <div className="main-app">
           <ResultBox text={text} />
           <TextArea setText={setText} />
-          <BottomResultBox />
+          <BottomResultBox text={text}/>
         </div>
       </div>
       <Footer />
